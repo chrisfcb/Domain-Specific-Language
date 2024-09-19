@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Created-By: Maven Jar Plugin 3.2.0
+Build-Jdk-Spec: 18
+Bundle-Description: SLF4J Simple binding
+Bundle-Version: 2.0.0
+Implementation-Version: 2.0.0
+Multi-Release: true
+X-Compile-Source-JDK: 8
+X-Compile-Target-JDK: 8
+Implementation-Title: slf4j-simple
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: slf4j.simple
+Bundle-Name: slf4j-simple
+Bundle-Vendor: SLF4J.ORG
+Require-Bundle: slf4j.api
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.slf4j.simple;version=2.0.0
+Import-Package: org.slf4j;version=2.0.0,org.slf4j.spi;version=2.0.0,org.
+ slf4j.helpers;version=2.0.0,org.slf4j.event;version=2.0.0
+

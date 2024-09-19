@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="no.uio.aeroscript.runtime.InterpreterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-13T10:39:02" hostname="DESKTOP-6GUOCSM" time="0.06">
+  <properties/>
+  <testcase name="visitExpression()" classname="no.uio.aeroscript.runtime.InterpreterTest" time="0.06"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
