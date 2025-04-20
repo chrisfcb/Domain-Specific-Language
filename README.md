@@ -34,11 +34,11 @@ To build and run this project, you need the following:
 3. Type **help** once the REPL is running to get a list of commands.
 
 ## Project structure
-- **Grammar:** The AeroScript grammar is defined in src/main/antlr/AeroScript.g4.
-- **Interpreter:** The interpreter parses and executes AeroScript programs (Interpreter.java).
+- **Grammar:** The grammar is defined in src/main/antlr/AeroScript.g4.
+- **Interpreter:** The interpreter parses and executes programs (Interpreter.java).
 - **Runtime:** Includes classes for managing drone state, memory, and execution (Program.java).
 - **Actions and Reactions:** Core logic for drone actions and reactions is implemented in the ast.stmt package (acMove.java, Reaction.java, etc.).
-- **REPL:** Interactive REPL for testing and debugging AeroScript programs (REPL.java).
+- **REPL:** Interactive REPL for testing and debugging programs (REPL.java).
 - **Tests:** Not implemented in this version
 
 ## Example instructions
