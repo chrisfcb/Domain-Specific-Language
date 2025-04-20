@@ -1,12 +1,12 @@
-# AeroScript: A Domain-Specific Language for Drone Missions
+# Domain-Specific Language for Drone Missions
 
-**AeroScript** is a domain-specific language (DSL) designed to define and execute mock drone missions. The main components of the program are the grammar that generates the lexer and parser, the interpreter, and the classes for actions, reactions, and executions.
+A domain-specific language (DSL) designed to define and execute mock drone missions. The main components of the program are the grammar that generates the lexer and parser, the interpreter, and the classes for actions, reactions, and executions.
 
 ---
 
 ## **Features**
 
-- **Custom Grammar**: The AeroScript grammar is defined using ANTLR, enabling the generation of a lexer and parser for the language.
+- **Custom Grammar**: The grammar is defined using ANTLR, enabling the generation of a lexer and parser for the language.
 - **Mission Execution**: Supports defining simple drone missions with actions like moving, ascending, descending, and reacting to events such as low battery or obstacles.
 - **REPL Interface**: Includes a REPL for interactive execution and debugging of AeroScript programs.
 - **Simulation**: Tracks drone state, including position, altitude, battery level, and distance traveled.
